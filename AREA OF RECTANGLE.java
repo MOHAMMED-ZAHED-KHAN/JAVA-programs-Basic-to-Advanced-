@@ -11,7 +11,7 @@ public class Rectangle {
         int Breath = scanner.nextInt();
 
         int area = Length * Breath;
-        System.out.println("Area of the rectangle is: " + area);
+        System.out.println("Area of the rectangle is: " + area + " cm^2");
 
         scanner.close();
     }
