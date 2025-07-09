@@ -1,8 +1,13 @@
+import java.util.Scanner;
+
 public class addition {
     public static void main(String[] args) {
-        int x=10;
-        int y=10;
-        int z=x+y;
-        System.out.println(z);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter two numbers: ");
+        int x = scanner.nextInt();
+        int y = scanner.nextInt();
+        int sum = x+y;
+        System.out.println("Sum of the two numbers is: " + sum);
+        scanner.close();
     }
 }
