@@ -22,8 +22,9 @@ public class sample {
       }
       
       int max = arr[0];
+        //    (or)   int max = Integer.MIN_VALUE;  --> with this program will work for both positive and negative values.....
 
-      for(int i=1;i<n;i++)
+      for(int i=1;i<n;i++)  // if we will use " int max = Integer.MIN_VALUE; " then  --> in for loop we will initialise i value to 0
       {
         if(arr[i]>max)
         {
